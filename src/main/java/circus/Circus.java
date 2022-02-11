@@ -98,5 +98,7 @@ public class Circus {
         for(Cage c: cages) {
             c.release();
         }
+
+        printAllAnimals(animalArrayList);
     }
 }
